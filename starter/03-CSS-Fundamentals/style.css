@@ -1,0 +1,30 @@
+h1 {
+  /* color: blue; */ /*Defines the color of the text*/
+  font-size: 26px; /*Controls the size of the text.*/
+  font-family: sans-serif; /*Defines the typeface used for the text.*/
+  text-transform: uppercase; /*Controls the capitalization of text.*/
+  font-style: italic; /*Sets the style of the font. Commonly used to apply italic text.*/
+}
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+li {
+  font-family: sans-serif;
+  font-size: 20px; /*Font size is 16px by Default*/
+}
