@@ -40,6 +40,24 @@ footer p {
   /*Here we are styling using Descedant Selectors p is the descendant of footer*/
   font-size: 16px;
 }
-article header p {
+/* article header p {
+  /*Descedant selectors may lead to errors and hard coding html structure into css*/
+/* font-style: italic; */
+/* }  */
+#author {
   font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+} */
+.related {
+  list-style: none;
 }
