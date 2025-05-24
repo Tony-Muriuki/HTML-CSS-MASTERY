@@ -81,3 +81,19 @@ aside {
 /* background-color: rgba(0, 0, 255, 0.212); */
 /* } */
 /* Css */
+/* .first-li {//Manual implementaion without Pseudo classes
+  font-weight: bold;
+} */
+li:first-child {
+  /*Use of Pseudo Classes*/
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(even) {
+  color: red;
+} */
+/* article p:last-child {
+  color: red;
+} */
