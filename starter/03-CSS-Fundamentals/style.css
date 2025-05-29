@@ -1,11 +1,20 @@
-h1,
+/* The Universal SelectorSelects Every Single Element On The Page */
+/* * { */
+/*Remember The Universal Selector Has The Lowest Priority In Specificty*/
+/* border-top: 10px solid #1098ad; */
+/* } */
+body {
+  font-family: sans-serif; /*Defines the typeface used for the text.*/
+  color: #444;
+  border-top: 10px solid #1098ad;
+}
+/* h1,
 h2,
 h3,
 p,
 li {
-  font-family: sans-serif; /*Defines the typeface used for the text.*/
-  color: #444;
-}
+  
+} */
 h1,
 h2,
 h3 {
@@ -91,9 +100,51 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
+
 /* li:nth-child(even) {
   color: red;
 } */
+/* Misconception:This Wont Work  */
 /* article p:last-child {
   color: red;
 } */
+
+/* Styling Hyperlinks */
+/* Pseudo Classes for Links LVHA */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /* color:#444; */ /*In practice we give the visited links same color as the link*/
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: #444;
+  font-style: italic;
+}
+
+/* Resolving Css Conflict Selectors */
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green;
+}
+/* nav a:link {
+  font-size: 18px;
+} */
+nav {
+  font-size: 18px;
+}
