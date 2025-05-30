@@ -11,7 +11,7 @@
 body {
   font-family: sans-serif; /*Defines the typeface used for the text.*/
   color: #444;
-  border-top: 10px solid #1098ad;
+  border-top: 11px solid #1098ad;
 }
 .container {
   width: 700px;
