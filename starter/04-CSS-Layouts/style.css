@@ -312,7 +312,7 @@ footer {
 */
 
 /* FLEXBOX */
-.main-header {
+/* .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -349,22 +349,17 @@ footer {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
-}
+} */
 
 /* FLEXBOX LAYOUT */
 /* .row {
   display: flex;
-  align-items: flex-start;
   gap: 75px;
-  margin-bottom: 60px;
 }
-
-article {
-  flex: 1;
-  margin-bottom: 0;
-}
-
 aside {
+  flex: 1;
+} */
+/* aside {
   
   DEFAULTS:
   flex-grow: 0;
@@ -372,4 +367,4 @@ aside {
   flex-basis: auto;
 
   flex: 0 0 300px;
-} 
+}  */
